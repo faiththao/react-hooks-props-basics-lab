@@ -1,8 +1,10 @@
 import React from "react";
+import user from "../data/user";
 
 function Home(props) {
   return (
     <div id="home">
+      <user />
       <h1 style={{ color: props.color }}>
         {props.username} is a Web Developer from {props.city}
       </h1>
